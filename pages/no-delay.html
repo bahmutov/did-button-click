@@ -1,0 +1,11 @@
+<body>
+  <button id="btn">Click</button>
+  <script>
+    const registerClick = () => {
+      document.getElementById('btn').addEventListener('click', (e) => {
+        console.log('button clicked, not stopping event ✅')
+      })
+    }
+    registerClick()
+  </script>
+</body>

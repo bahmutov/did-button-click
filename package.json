@@ -1,0 +1,22 @@
+{
+  "name": "did-button-click",
+  "version": "1.0.0",
+  "description": "Experiments with tracking click event listener during test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/did-button-click.git"
+  },
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/did-button-click/issues"
+  },
+  "homepage": "https://github.com/bahmutov/did-button-click#readme",
+  "devDependencies": {
+    "cypress": "3.1.5"
+  }
+}
